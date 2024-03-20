@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="etch_a_sketch.js"></script>
+    <link rel="stylesheet" href="etch_a_sketch.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div><input 
+            type="text" 
+            placeholder="Choose Board Size" 
+            value="16" 
+            onchange="userSize(this.value)" />
+            <button>Set Size</button></div>
+        <div class="sketchpad"></div>
+    </div>
+</body>
+</html>
